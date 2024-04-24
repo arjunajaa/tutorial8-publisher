@@ -20,4 +20,8 @@ URL `amqp://guest:guest@localhost:5672` adalah connection string untuk message b
 
 **screenshot memantau publisher**
 ![publisher1](image-4.png)
+Apabila perintah cargo run dijalankan secara berulang dalam satu detik, kita akan melihat peningkatan yang signifikan dalam laju "Publish" pada periode tersebut, yang tercermin dalam puncak-puncak pada grafik.
 
+Sebaliknya, apabila perintah cargo run hanya dijalankan sekali dalam satu detik, laju "Publish" akan menurun pada periode tersebut, sebagaimana ditunjukkan oleh lembah-lembah pada grafik.
+
+Dari fenomena ini, dapat disimpulkan bahwa tingkat pesan yang diterima oleh message broker RabbitMQ akan berfluktuasi seiring dengan peningkatan jumlah pesan yang diterbitkan oleh publisher dalam periode waktu tertentu. Semakin banyak pesan yang diterbitkan dalam satu detik, semakin tinggi tingkat pesan yang ditampilkan pada grafik.
