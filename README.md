@@ -17,3 +17,7 @@ URL `amqp://guest:guest@localhost:5672` adalah connection string untuk message b
 ![docker](image-1.png)
 ![publisher](image-2.png)
 ![subscriber](image-3.png)
+
+**screenshot memantau publisher**
+![publisher1](image-4.png)
+
