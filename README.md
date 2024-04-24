@@ -12,3 +12,8 @@ URL `amqp://guest:guest@localhost:5672` adalah connection string untuk message b
 
 **screenshot rabbitMQ management**
 ![Screenshot](image.png)
+
+**screenshot terminal**
+![docker](image-1.png)
+![publisher](image-2.png)
+![subscriber](image-3.png)
